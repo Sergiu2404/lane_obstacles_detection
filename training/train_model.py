@@ -11,10 +11,9 @@ def train_model():
 
     results = model.train(
         data="../config/data.yaml",
-        epochs=50,
-        imgsz=640,
-        batch=16,
-        device=0
+        epochs=30,
+        exist_ok=True, # overwrites existing folder
+        device=0,
     )
 
 if __name__ == "__main__":
