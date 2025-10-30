@@ -1,0 +1,13 @@
+training/runs
+training/yolo11n.pt
+
+__pycache__/
+*.pyc
+*.pyo
+
+.DS_Store
+desktop.ini
+
+env/
+venv/
+*.conda

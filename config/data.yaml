@@ -1,0 +1,9 @@
+path: C:\Users\Sergiu\.cache\kagglehub\datasets\sabidrahman\pothole-cracks-and-openmanhole\versions\2\dataset\dataset # dir where train and test folders are
+train: train/images # train images folder relative to path var
+val: valid/images # valid images relative to path var
+
+names:
+  0: pothole
+  1: cracks
+  2: open_manhole
+  3: good_road
